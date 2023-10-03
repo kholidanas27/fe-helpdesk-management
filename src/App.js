@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "./app/sidebar";
+import Sidebars from "./app/sidebar";
 function App() {
   return (
     <div
       id="app"
       style={({ height: "100vh" }, { display: "flex", flexDirection: "row" })}
     >
-      <Sidebar />
+      <Sidebars />
       <main>test</main>
     </div>
   );
